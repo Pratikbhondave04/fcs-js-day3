@@ -1,0 +1,22 @@
+<html>
+ <head>
+  <script> 
+  function odd_even()
+  { 
+  var no; no=Number(document.getElementById("no_input").value); 
+  if(no%2==0) 
+  {
+   console.log(no +" is Even Number");
+    }
+     else
+      { 
+      console.log(no +" is Odd Number"); 
+      }
+       } 
+       </script>
+        </head> 
+        <body> 
+        Enter Any Number:<input id="no_input"><br />
+         <button onclick="odd_even()">Check</button>
+          </body> 
+          </html>
