@@ -1,0 +1,18 @@
+<html>
+ <head>
+  <script> 
+  function os()
+  { 
+  var arr; 
+  var str;
+  str=document.getElementById("os");
+  arr=str.split(' ');
+   console.log("os is"+arr[0]+"and version is"+arr[1]);
+       } 
+       </script>
+        </head> 
+        <body> 
+        Enter os and its version separated by space:<input id="os"><br />
+         <button onclick="os()">show</button>
+          </body> 
+          </html>
